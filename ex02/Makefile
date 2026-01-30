@@ -6,14 +6,14 @@
 #    By: sbansacc <sbansacc@student.s19.be>         +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/22 00:52:13 by sbansacc          #+#    #+#              #
-#    Updated: 2026/01/22 04:27:06 by sbansacc         ###   ########.fr        #
+#    Updated: 2026/01/30 21:47:47 by sbansacc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME =		array
 CXX =		c++
 CXXFLAGS =	-Wall -Wextra -Werror -std=c++98
-SRCS =		main2.cpp
+SRCS =		main.cpp
 OBJDIR =	obj/
 OBJS =		$(SRCS:%.cpp=$(OBJDIR)%.o)
 

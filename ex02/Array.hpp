@@ -6,7 +6,7 @@
 /*   By: sbansacc <sbansacc@student.s19.be>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/22 00:58:54 by sbansacc          #+#    #+#             */
-/*   Updated: 2026/01/22 04:25:56 by sbansacc         ###   ########.fr       */
+/*   Updated: 2026/01/30 21:50:32 by sbansacc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 #define ARRAY_HPP
 
 #include <exception>
+#include <cstdlib> // For srand() and rand()
+#include <ctime>   // For time()
 
 template <typename T>
 class Array {
